@@ -1,2 +1,3 @@
-let a= require ('./a');
-a.test();
+let a= require ('./time');
+console.log(a.GetTime())
+console.log(a.GetTimeInfo())
